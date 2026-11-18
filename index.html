@@ -312,6 +312,10 @@ header{padding-top:42px;padding-bottom:0}
 .consent-banner .consent-close:hover{background:#eef5e9}
 .consent-banner .consent-close:focus-visible{outline:2px solid #53785b;outline-offset:1px}
 @media(max-width:650px){.consent-banner{padding-right:41px}}
+/* Mobile alignment: lift only the LEGO artwork, not its invisible gift hotspot. */
+@media (max-width:650px){
+  .mascot img{position:relative;top:-56px}
+}
 </style></head>
 <body>
 <div id="sheetsConsentBanner" class="consent-banner" role="dialog" aria-label="Cho phép gửi dữ liệu" hidden>
